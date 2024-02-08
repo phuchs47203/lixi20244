@@ -7,7 +7,7 @@ import huy from '../../assets/huy.png';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 const Home = () => {
   return (
-    <div id='home'>
+    <div id='home' className='app-home'>
         <h1 className='home-heading'>Luckey Money of Phuc Handsome</h1>
         <Link to="/trang" >
           <img src={trang} className="logo react imgcircle" alt="React logo1" />

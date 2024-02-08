@@ -42,7 +42,9 @@ const QuesTrang = () => {
               <div className='app-img-true-heading'>
                   <h3> 👏 Click on the Momo link to receive lucky money</h3>
               </div>
+              <p>
               <a href='https://lixi.momo.vn/lixi/1KJ9aDK8zRopJ4r'>https://lixi.momo.vn/lixi/1KJ9aDK8zRopJ4r</a>
+              </p>
           </div>
         }
         

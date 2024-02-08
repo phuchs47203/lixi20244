@@ -12,10 +12,9 @@ import './App.css'
 const App = () => {
   return (
     <BrowserRouter>
-    <div>
-
-      {/* <Home/> */}
-        <Routes>
+    <div className='app-color'>
+      <div className='app-box'>
+      <Routes>
           <Route path='/trang' element={<QuesTrang/>}/>
           <Route path='/nguyen' element={<QuesNguyen/>}/>
           <Route path='/huy' element={<QuesHuy/>}/>
@@ -24,6 +23,8 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
 
         </Routes>
+      </div>
+        
       </div>
     </BrowserRouter>
   )

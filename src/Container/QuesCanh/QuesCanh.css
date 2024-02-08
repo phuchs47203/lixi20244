@@ -31,21 +31,26 @@
     flex-direction: column;
     grid-gap: 0.5rem;
 }
+.app-lixi-ques-main h3{
+    color: rgb(243, 96, 28);
+}
 .but_false
 {
- background-color:rgb(240, 217, 199);
- border: none;
+    background-color:rgb(46, 55, 71);
+    border: none;
+    color: rgb(153, 212, 252);
 }
 .but_true
 {
-    background-color:rgb(240, 217, 199);
+    background-color:rgb(46, 55, 71);
     border: none;
+    color: rgb(153, 212, 252);
 }
 .but_false:focus{
     background-color: rgb(224, 65, 86);
 }
 .but_true:focus{
-    background-color: rgb(132, 233, 132);
+    background-color: rgb(3, 87, 3);
 }
 .app-img-true{
     display: flex;
@@ -83,7 +88,116 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: rgba(196, 238, 183, 0.5);
+    background-color: rgba(183, 238, 168, 0.8);
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    z-index: 4;
+}
+.app-img-true-heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.app-img-true-heading h3{
+    text-align: center;
+}.app-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;    
+}
+.app-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+
+}
+.app-lixi-ques-heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;justify-content: center;
+    align-items: center;
+}
+.app-lixi-ques-heading h1{
+    font-size: 22px;
+    color: rgb(94, 196, 190);
+    font-weight: 700;
+    text-align: center;
+}
+.app-lixi-ques-main{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0.5rem;
+}
+.app-lixi-ques-main h3{
+    color: rgb(243, 96, 28);
+}
+.but_false
+{
+    background-color:rgb(46, 55, 71);
+    border: none;
+    color: rgb(153, 212, 252);
+}
+.but_true
+{
+    background-color:rgb(46, 55, 71);
+    border: none;
+    color: rgb(153, 212, 252);
+}
+.but_false:focus{
+    background-color: rgb(224, 65, 86);
+}
+.but_true:focus{
+    background-color: rgb(3, 87, 3);
+}
+.app-img-true{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.app-img-false{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 183, 183, 0.5);
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    z-index: 4;
+}
+.app-img-false h3{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(66, 48, 48);
+}
+.app-img-true{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(183, 238, 168, 0.8);
     width: 100vw;
     height: 100%;
     top: 0;
