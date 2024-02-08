@@ -8,7 +8,7 @@ const QuesCanh = () => {
 
 
   return (
-    <div id='trang' className='app-all'>
+    <div id='trang' className='app-all slide-in'>
       <div className='app-box'>
         
         {toggleQuestion &&
